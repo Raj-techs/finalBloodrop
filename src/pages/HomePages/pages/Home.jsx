@@ -8,6 +8,7 @@ import ContentSection from "../../../components/HomeComponents/components/Conten
 import TeamSection from "../../../components/HomeComponents/components/TeamSection";
 import FooterSection from "../../../components/HomeComponents/components/FooterSection";
 import Header from "../../../components/HomeComponents/components/Header";
+import '../../../App.css'
 
 
 const Home = () => {

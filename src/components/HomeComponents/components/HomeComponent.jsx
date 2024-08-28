@@ -51,6 +51,8 @@
 
 import React, { useRef } from "react";
 import Header from "../components/Header";
+import '../../../App.css'
+
 
 const Home = () => {
   const bloodBankRef = useRef(null);

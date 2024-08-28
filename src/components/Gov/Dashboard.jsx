@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-
+// import '../../../src/App.css'
 const Dashboard = () => {
     const [banks, setBanks] = useState([]);
     const [donors, setDonors] = useState([]);

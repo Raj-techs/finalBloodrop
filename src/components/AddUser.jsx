@@ -1,6 +1,8 @@
 import React, { StrictMode, useState } from 'react'
 import axios from 'axios';
 import { toast } from 'react-toastify';
+// import '../../src/App.css'
+
 const AddUser = (props) => {
     console.log(props);
     const [userData, setUserData] = useState({

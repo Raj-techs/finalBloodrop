@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../../../components/HomeComponents/components/Header';
 import Loading from '../../../components/Loading';
+// import '../../../App.css'
 
 const states = [
     "Andhra Pradesh", "Maharashtra", "Karnataka", "Tamil Nadu", "Telangana",

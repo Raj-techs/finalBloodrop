@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
+// import '../../../src/App.css'
 
 
 import axios from 'axios';

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faInfoCircle, faHandsHelping, faBlog, faTint, faSignInAlt, faUserPlus, faBars } from '@fortawesome/free-solid-svg-icons';
+// import '../../App.css'
 
 const Navbar = () => {
   return (

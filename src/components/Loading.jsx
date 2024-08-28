@@ -1,6 +1,7 @@
 import React from 'react';
 import { ThreeDots } from 'react-loader-spinner';
 import Header from './HomeComponents/components/Header';
+// import '../../src/App.css'
 
 const Loading = () => {
   const loaderStyle = {

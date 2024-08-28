@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../../../components/HomeComponents/components/Header';
 import Loading from '../../../components/Loading';
 import axios from 'axios';
+// import '../../../App.css'
 
 const SearchBBanks = () => {
     const [loading, setLoading] = useState(true);
@@ -97,7 +98,7 @@ const SearchBBanks = () => {
                     <div className="mb-4">
                         <input className="w-full p-2 border border-gray-300 rounded-md" type="text" placeholder="Search for Banks" />
                     </div>
-                    <div>
+                    <div style={{width:"100%",overflowX:"scroll"}} >
                         <table className="min-w-full bg-white border border-gray-300 rounded-md">
                             <thead>
                                 <tr className="bg-red-600 text-white text-left">

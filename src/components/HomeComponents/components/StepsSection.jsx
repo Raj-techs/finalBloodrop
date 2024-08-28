@@ -1,5 +1,6 @@
 import React from "react";
 import stepImage from "../../../assests/blood-poster-5.jpg";
+import '../../../App.css'
 
 const StepsSection = () => {
   return (
@@ -35,7 +36,7 @@ const StepsSection = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex relative pb-12">
+              <div className="flex relative pb-12 ">
                 <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                   <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
                 </div>

@@ -6,6 +6,8 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 import LoadingOne from '../components/LoadingOne';
 import Swal from 'sweetalert2';
 import axios from 'axios';
+// import '../App.css'
+
 
 const TransferUserDetails = () => {
   const { id } = useParams();

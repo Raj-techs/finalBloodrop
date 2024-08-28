@@ -7,6 +7,8 @@ import SingleGroup from '../pages/SingleGroup'
 import Transfer from '../pages/Transfer'
 import DisplayAdim from './DisplayAdim'
 import SpecialCases from './SpecialCases'
+// import '../../src/App.css'
+
 
 const Content = (props) => {
   const [showAddUser, setShowAddUser] = useState(false);

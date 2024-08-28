@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import { UsersData } from '../data/Users'
+// import '../App.css'
+
 const SingleGroup = () => {
   return (
     <>

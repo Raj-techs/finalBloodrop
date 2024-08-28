@@ -3,6 +3,7 @@ import Details from '../components/Details'
 import Nav from '../components/Nav'
 import Loading from '../components/Loading';
 import { Link, useNavigate } from 'react-router-dom';
+// import '../App.css'
 
 const DetailsPage = () => {
   const [loading, setLoading] = useState(true);

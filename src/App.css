@@ -488,7 +488,7 @@ body {
   background-image: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
   height: 100vh;
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 h1 {
@@ -1453,6 +1453,10 @@ table .gov-req-head.small {
   padding: 10px;
   background-color: rgb(255, 255, 255);
 }
+.familydetails{
+  position: relative;
+  top: 100px;
+}
 
 .total-bank {
   background-color: rgb(252, 252, 252);
@@ -1644,3 +1648,138 @@ table .gov-req-head.small {
   background-image: url(https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2023/02/Google-Maps-icon-on-map.webp?ssl=1&quality=80&w=f);
   background-size: cover; 
 }
+
+/* Add media queries for small screens */
+@media only screen and (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-grid div {
+    margin-bottom: 20px;
+  }
+  .form-grid input, .form-grid select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-grid label {
+    font-size: 14px;
+  }
+  .navibar{
+    background-color: blue;
+  }
+  .my-status div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    height: 2500px;
+  }
+  .family-details{
+    position: relative;
+    top: 1400px;
+    width: 60%;
+  }
+  .family-details table{
+    width: 20%;
+    /* overflow-x: scroll; */
+  }
+  .container.hhh h2{
+    position: relative;
+    max-width: 290%;
+    top: 1600px;
+    
+  }
+  .donated{
+    position: relative;
+    top: 300px;
+    height: 300px;
+    /* width: 60%; */
+    left: -8px;
+    display: none;
+  }
+  .msgs{
+    position: relative;
+    top:100px;
+    line-break: 3;
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 2; */
+    /* -webkit-box-orient: vertical; */
+     overflow: hidden;
+    /* text-overflow: ellipsis; */
+  }
+  .state-details .relative{
+    position: relative;
+    top: -1700px;
+    height: 20%;
+    width: 76%;
+    left: 10px;
+  }
+  .state-details .state-adduser table h2{
+    position: relative;
+    left: -35px;
+  }
+  .total-status h1 div{
+    height: 10%;
+    border: none;
+  }
+  .g .g-img,.g .g-matter{
+    margin-left: -90px;
+    margin-top: -20px;
+  }
+  .state-details .state-adduser table{
+    width: 80%;
+  } 
+  .my-status b h1{
+    margin-left: -80px;
+    font-size: .6em;
+  }
+  /* .my-status{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .my-status b h1{
+    margin-left: -80px;
+    font-size: .6em;
+  }
+  .g .g-img,.g .g-matter{
+    margin-left: -90px;
+    margin-top: -20px;
+  }
+  .g{
+    margin-right: -100px;
+  }
+  .state-details{
+    position: relative;
+    top: 450px;
+    left: -350px;
+  }
+  .state-details .state-adduser table{
+    width: 120%;
+  } */
+  body{
+    overflow-x: hidden;
+  }
+  .fooooter{
+    display: none;
+  }
+}
+  
+  
+#lts{
+  display: flex;
+  /* flex-direction: row; */
+  position: relative;
+  background-color: rgb(71, 71, 45);
+  width: 60%;
+  color: black;
+  height: 70%;
+}
+#lts .opts{
+  display: flex;
+  width: 90%;
+  background-color: yellow;
+}
+
+

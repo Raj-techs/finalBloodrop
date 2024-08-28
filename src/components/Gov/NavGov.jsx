@@ -1,4 +1,5 @@
 import React from 'react'
+// import '../../../src/App.css'
 
 const NavGov = () => {
     const listItems = document.querySelectorAll('.list-1'); // Select all list-1 elements

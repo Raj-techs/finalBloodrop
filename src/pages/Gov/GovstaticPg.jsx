@@ -9,6 +9,8 @@ import Rejected from '../../components/Gov/Rejected';
 import TotalBanks from '../../components/Gov/TotalBanks';
 import Loading from '../../components/Loading';
 import Navbar from './GovNav'
+// import '../../App.css'
+
 
 const GovstaticPg = () => {
     const [showDashboard, setshowDashboard] = useState(true);

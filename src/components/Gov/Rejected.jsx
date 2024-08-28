@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { UsersData } from '../../data/Users'
+// import '../../../src/App.css'
+
 const Rejected = () => {
     return (
         <>

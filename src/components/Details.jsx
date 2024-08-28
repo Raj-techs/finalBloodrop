@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { UsersData } from '../data/Users';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+// import '../../src/App.css'
+
 const Details = () => {
     let { id } = useParams()
     const [userData, setuserData] = useState([])

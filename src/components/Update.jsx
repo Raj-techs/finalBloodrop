@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+// import '../../src/App.css'
 
 const Update = (props) => {
     const [users,setUsers]=useState([])

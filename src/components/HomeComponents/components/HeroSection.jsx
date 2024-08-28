@@ -49,6 +49,7 @@
 import React from "react";
 import heroVideo from "../../../assests/blood-anime.mp4"; // Path to your video file
 import backgroundImage from "../../../assests/bg-3.jpg"; // Path to your background image
+// import '../../../App.css'
 
 const HeroSection = () => {
   return (

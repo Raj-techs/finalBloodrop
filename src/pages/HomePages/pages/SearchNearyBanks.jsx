@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../../components/HomeComponents/components/Header';
 import Loading from '../../../components/Loading';
+// import '../../../App.css'
 
 const districts = [
     "Anantapur", "Chittoor", "East Godavari", "Guntur", "Krishna",
@@ -97,7 +98,7 @@ const SearchNearyBanks = () => {
             <div className="container mx-auto mt-0 p-5 bg-white shadow-md rounded" style={{ marginBottom: "10px", height: "130vh" }}>
                 {/* Form Section */}
                 <div className="mb-6">
-                    <h2 className="text-xl font-semibold mb-4 text-white bg-red-600">Search Nearby Banks</h2>
+                    <h2 className="text-xl font-semibold mb-4 text-red-500">Search Nearby Banks</h2>
                     <form className="grid grid-cols-1 p-3 border md:grid-cols-3 gap-4" onSubmit={handleSubmit}>
     <select
         name="group"
@@ -160,10 +161,10 @@ const SearchNearyBanks = () => {
                 </div>
 
                 {/* Table Section */}
-                <h2 className="text-xl font-semibold mb-4 text-white bg-red-600">Allocated Blood Banks</h2>
+                <h2 className="text-xl font-semibold mb-4  text-red-500">Allocated Blood Banks</h2>
                 <div className="overflow-auto border rounded-lg">
                 {filteredBanks && filteredBanks.length > 0 ? (
-    <table className="min-w-full divide-y divide-gray-200">
+        <table className="min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-200">
             <tr>
                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
@@ -185,6 +186,7 @@ const SearchNearyBanks = () => {
             ))}
         </tbody>
     </table>
+    // </div>
 ) : (
     <p>NO DATA FOUND</p>
 )}

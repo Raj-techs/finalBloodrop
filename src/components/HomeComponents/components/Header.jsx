@@ -5,6 +5,8 @@ import PropTypes from "prop-types";
 import { Link, useNavigate } from "react-router-dom";
 import logoImage from "../../../assests/bloodrop.png";
 import { toast } from 'react-toastify';
+import '../../../App.css'
+
 
 const Header = ({
   bloodBankRef,
@@ -40,7 +42,7 @@ const Header = ({
 };
 
   return (
-    <nav className="body-font bg-red-800 text-white h-20 ">
+    <nav className="body-font bg-red-800 text-white h-20  ">
       {/* <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"> */}
         <div className="flex title-font font-medium items-center text-white mb-4 md:mb-0 navbar">
           <img
@@ -48,15 +50,16 @@ const Header = ({
             alt="Bloodrop Logo"
             className="w-10 h-10 p-2 bg-white rounded-full"
           />
-          <span className="ml-3 text-xl">BLOODROP</span>
+          <span className="ml-3 text-sm">BLOODROP</span>
         </div>
-        <nav className="opts h-14" >
+        <div id="lts " className="hidden sm:block">
+          <nav className="opts h-14  " >
           <a href="/" className="mr-5  hover:text-gray-900" onClick={notify}>
             HOME
           </a>
           
 
-          <div className="relative">
+          <div className="relative " >
             <button
               onClick={toggleServicesDropdown}
               className="mr-5 hover:text-gray-900 cursor-pointer"
@@ -186,7 +189,7 @@ const Header = ({
           <a href="/about" className="mr-5 hover:text-gray-900">
             ABOUT US
           </a>
-        </nav>
+        </nav></div>
         <button className="inline-flex items-center bg-black border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Know More
           <svg

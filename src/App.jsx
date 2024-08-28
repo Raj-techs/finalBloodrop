@@ -26,6 +26,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import DonarToggle from './pages/Togglebuton';
 import TransferUserDetails from './pages/TransferUserDetails';
+import NavTest from './pages/NavigationBar';
+import NavigationBar from './pages/NavigationBar';
+
 
 const App = () => {
   return (
@@ -65,6 +68,9 @@ const App = () => {
           <Route path='/gov/details/:id' element={<DetailsGov />} />
           <Route path='/gov/register' element={<AdminRegister />} />
           <Route path='/gov/login' element={<AdminLogin />} />
+
+
+          <Route path='/testingnav' element={<NavigationBar />} />
         </Routes>
         <ToastContainer />
       </BankProvider>

@@ -2,6 +2,8 @@ import React from "react";
 import trackImage from "../../../assests/track.jpg";
 import bloodunit from "../../../assests/bloodunit.jpg";
 import bImage from "../../../assests/bb.jpg";
+// import '../../../App.css'
+
 
 const ContentSection = () => {
   return (

@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import Loading from '../Loading'
 import LoadingOne from '../LoadingOne'
+// import '../../../src/App.css'
+
 const TotalBanks = () => {
   const [loading, setLoading] = useState(true);
 

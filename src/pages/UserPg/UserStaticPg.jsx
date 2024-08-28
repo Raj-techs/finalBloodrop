@@ -8,6 +8,8 @@ import PropTypes from "prop-types";
 import Loading from '../../components/Loading';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
+// import '../../App.css'
+
 
 const UserStaticPg = ({
   bloodBankRef,

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Nav from '../../components/Nav'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from "axios"
+// import '../../App.css'
 
 const UserAuth = () => {
   const [data,setData]=useState({
